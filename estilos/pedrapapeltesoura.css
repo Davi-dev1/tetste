@@ -1,0 +1,20 @@
+body{
+    background-color: antiquewhite;
+}
+#img1,#img2,#img3{
+display: inline-flex;
+height: 400px;
+width: 300px;
+margin: 250px 0 0 270px;
+transition: transform 0.3s ease;
+cursor:pointer;
+
+}
+
+
+#img1:hover,#img2:hover,#img3:hover{
+transform: scale(2.1);}
+
+h1{
+    margin-left:500px;
+}
